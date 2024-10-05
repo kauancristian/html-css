@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&display=swap');
+
+.d{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    transition: all ease-in-out 120ms;
+}
+
+
+#d1:hover{
+    background-color: rgb(56, 177, 56);
+    border: 3px solid black;
+}
+
+#d1 > p{
+    display: none;
+}
+
+#d1:hover > p{
+    display: block;
+    color: rgb(3, 237, 23);
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    width: 150px;
+    margin-left: 21px;
+}
+
+#d2:hover{
+    background-color: rgb(192, 192, 30);
+    border: 3px solid black;
+}
+
+#d2 > p{
+    display: none;
+}
+
+#d2:hover > p{
+    display: block;
+    color: rgb(187, 255, 0);
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    width: 150px;
+    margin-left: 21px;
+}
+
+#d3:hover{
+    background-color: rgb(135, 32, 32);
+    border: 3px solid black;
+}
+
+#d3 > p{
+    display: none;
+}
+
+#d3:hover > p{
+    display: block;
+    color: rgb(240, 6, 6);
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    width: 150px;
+    margin-left: 21px;
+}
+
+#button{
+    font-family: "Bangers", system-ui;
+    background-color: red;
+    color: white;
+    width: 105px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3em;
+    margin-left: 3em;
+    font-weight: normal;
+    transition: all ease-in-out 120ms;
+}
+
+#button:hover{
+    background-color: white;
+    color: red;
+    border:2px solid red;
+}

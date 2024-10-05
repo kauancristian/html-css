@@ -1,0 +1,12 @@
+/* Configurações globais das CSS */
+*{
+    height: 100%; 
+}
+
+/* LINEAR-GRADIENT and RADIAL_GRADIENT */
+/* PORCENTAGEM ULTILIZÁVEL */
+body{
+    margin: 0;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right , #93ADAA 1%, #507A75 10%, #516B68, #204743, #0D332F );
+}

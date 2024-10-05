@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Righteous&display=swap');
+
+body{
+    background-color: #67ff97;
+}
+
+#inicio{
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    background-color: #1C863E;
+    color: white;
+}
+
+
+h1{
+    font-family: "Righteous", sans-serif;
+    color: #000000; 
+}
+
+h2{
+   font-family: "DotGothic16", sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+.basico{
+    color: #199f21;
+}
+
+.intermediario{
+    color: #838b10;
+}
+
+.avancado{
+    color: #8b1010;;
+}
+
+.destaque{
+    background-color: rgba(255, 255, 72, 0.229);
+}

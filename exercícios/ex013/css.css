@@ -1,0 +1,16 @@
+body{
+    text-align: justify;
+    font-size: 1em;
+    background-color: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 1.7em;
+    color:blue
+}
+
+h2{
+    font-size: 1.2em;
+    color: rgb(201, 16, 16);
+}

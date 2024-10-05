@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Love';
+    src: url('fonts/Ready\ Lover\ Font\ by\ 7Ntypes.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+        /* Tipos de format()
+        - opentype  (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (apple Advanced Typography)
+        - svg
+    */
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Love', Times, serif;
+    font-size: 3.8em;
+    font-weight: normal;
+}

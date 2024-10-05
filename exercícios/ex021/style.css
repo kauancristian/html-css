@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    font-family: "Libre Franklin", sans-serif;
+    color: var(--fontColor);
+    margin: 0;
+}
+
+body{
+    background-color:var(--bg);
+}
+
+header{
+    text-align: center;
+    background-color: var(--bgh1);
+    padding: 12px;
+    box-shadow: 1px 5px 12px rgba(0, 0, 0, 0.462);
+}
+
+h1{
+    color: var(--h1);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 10 8px 5px 5px;
+    margin-left: -40px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+li{
+    font-family: "Source Code Pro", monospace;
+    color: var(--colorlink);
+    text-shadow: 2px 1px 5px rgb(98, 95, 95);
+    transition: all ease-in 100ms;
+}
+
+li:hover{
+    color: blue;
+    border-radius: 15px;
+    padding: 3px;
+    border: 2px solid white;
+}
+
+li:active{
+    color: greenyellow;
+}
+
+h2{
+    color:var(--h2);
+    padding: 15px 5px 5px 5px;
+    margin: 5px;
+}
+
+hr{
+    box-shadow: 1px 1px 10px black;
+}
+
+#perfil{
+    background-color: white;
+    padding: 7px 7px 30px 7px;
+    margin: 7px;
+    border-radius: 10px 0px;
+    box-shadow: 2px 6px 10px rgba(14, 7, 7, 0.396);
+}
+
+
+p{
+    text-align: justify;
+}
+
+aside{
+    margin: 8px 0px 0px 5px;
+    font-weight: 600;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+    margin-top:40%;
+    padding: 52px;
+    background-color: var(--footer);
+}
+
+#h2-rodape{
+    color: white;
+    font-family: "Overpass", sans-serif;}
+
+:root{
+    --gray: #ccc3c3;
+    --escured-gray: #262424;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+.light-theme{
+    --bg:var(--gray);
+    --fontColor:var(--black);
+    --footer:var(--black);
+    --h1:var(--white);
+    --bgh1:var(--escured-gray);
+    --h2:var(--black);
+    --colorlink:var(--white);
+}
+
+.dark-theme{
+    --bg:var(--black);
+    --fontColor:var(--white);
+    --footer:var(--escured-gray);
+    --h1:var(--black);
+    --bgh1:var(--gray);
+    --h2:var(--white);
+    --colorlink:var(--black);
+}

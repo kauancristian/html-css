@@ -1,0 +1,17 @@
+body{
+    background-color: var(--yellow-bg);
+}
+
+:root{
+    --yellow-bg:rgb(182, 182, 57);
+}
+
+section{
+    background-color: white;
+    height: 900px;
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    columns: 3;
+    border-radius: 15px 0px 15px 0px;
+}

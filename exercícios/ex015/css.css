@@ -1,0 +1,18 @@
+body{
+    background-color:lightgoldenrodyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+h1{
+    color: rgb(35, 112, 115);
+    background-color: rgba(86, 175, 154, 0.398);
+}
+
+h2{
+    color: rgb(62, 145, 150)
+}
+
+p{
+    text-align: justify;
+}

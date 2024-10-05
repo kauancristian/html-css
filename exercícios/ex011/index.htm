@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body> <!--Usuário em primeiro lugar sempre!!-->
+    <h1>Imagem dinâmica</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Foto flexível">
+        </picture>
+
+        <h1>Reproduzindo áudio</h1>
+            <p>Vamos aprender a reproduzir áudios em HTML5</p>
+
+            <pre>
+
+                <audio src="midia/Kazoom - Quincas Moreira.mp3" controls ></audio>
+
+                <audio src="midia/guanacast-33.mp3" controls ></audio>
+                
+                        <!-- Loop -->
+
+                <audio src="midia/Danzon De Pasion (Sting) - Jimmy Fontanez_Media Right Productions.mp3" controls loop></audio>
+                
+                        <!-- Outra Forma --> <!--Preload = auto/ metadata / none-->
+
+                <audio preload="auto" controls>
+                    <source src="midia/guanacast-33.mp3" type="audio/mp3">
+                </audio>
+
+            </pre> 
+
+            <p>Caso queira baixar o arquivo MP3 clique aqui em <a href="midia/guanacast-33.mp3">Download</a></p>
+
+
+            <!--MP3 WAV OGG-->
+
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                <img src="imagens/foto-g.png" alt="Foto flexível">
+            </picture>
+
+            <audio src="midia/Kazoom - Quincas Moreira.mp3" controls></audio>
+            <audio preload="auto" controls>
+                <source src="midia/Kazoom - Quincas Moreira.mp3" type="audio/mp3">
+            </audio>
+
+
+</body>
+</html>

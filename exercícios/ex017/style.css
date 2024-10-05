@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, #F2D194, #F28B0C,#D95204, #590202, #260101 );
+    font: normal 16px Arial, Verdana, serif;
+    margin: 0;
+}
+
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+h2{
+    text-align: right;
+}
+
+#h2-2{
+    text-align: center;
+}
+
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+}
