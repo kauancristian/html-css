@@ -1,1 +1,118 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root{
+    --font01:"Passion One", sans-serif;
+    --font02:"Sriracha", cursive;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 270px;
+    text-align: center;
+    position: relative;
+    font-family: var(--font01);
+}
+
+header h1{
+    font-size: 6.6vw;
+    padding-top: 45px;
+    word-spacing: 10px;
+}
+
+header aside{
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    transition: all ease-in-out 160ms;
+}
+
+header a:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+section{
+    font-family: var(--font02);
+    font-size: 2.8em;
+    margin-top: 63px;
+    height: 695px;
+}
+
+section p{
+    margin-left: 75px;
+}
+
+
+pre{
+    margin-left: -255px;
+    font-family: var(--font02);
+}
+
+
+.joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 645px;
+    padding-top: 55px;
+}
+
+.joaninha pre{
+    color: white;
+    width: 60px;
+    height: 600px;
+    margin-top: -12px;
+    background-color: black;
+    height: 300px;
+}
+
+.sec3{
+    height: 1300px;
+}
+
+.papel
+{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 50px;
+    height: 13.5em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 32px;
+    margin-top: 700px;
+    position: absolute;
+    text-align: center;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h3{
+    font-weight: lighter;
+}
+
+
+
