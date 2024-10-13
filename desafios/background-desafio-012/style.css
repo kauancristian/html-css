@@ -37,7 +37,7 @@ header a{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     letter-spacing: 0.5px;
-    transition: all ease-in-out 160ms;
+    transition: all ease-in-out 140ms;
 }
 
 header a:hover{
@@ -46,21 +46,16 @@ header a:hover{
     padding: 3px;
 }
 
-main{
-    text-align: left;
-}
 
 section{
     font-family: var(--font02);
-    font-size: 2.8em;
+    font-size: 2.6em;
     margin-top: 63px;
-    height: 695px;
+    height: 600px;
 }
 
-
-pre{
-    margin-left: -255px;
-    font-family: var(--font02);
+article{
+    margin-left: 28px;
 }
 
 
@@ -74,16 +69,15 @@ pre{
     padding-top: 55px;
 }
 
-.joaninha pre{
+.joaninha article{
     color: white;
-    width: 60px;
-    height: 600px;
-    margin-top: -12px;
-    height: 300px;
+    background-color: rgba(0, 0, 0, 0.341);
+    width: 490px;
+    padding: 10px;
 }
 
 .sec3{
-    height: 1300px;
+    height: 1070px;
 }
 
 .papel
@@ -93,11 +87,16 @@ pre{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 50px;
-    height: 13.5em;
+    padding-top: 55px;
+    height: 17em;
 }
 
-
+.papel article{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.341);
+    width: 480px;
+    padding: 10px;
+}
 
 footer{
     background-color: black;
@@ -113,6 +112,11 @@ footer{
 
 footer h3{
     font-weight: lighter;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
 
 
