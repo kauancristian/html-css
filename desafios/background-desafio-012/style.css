@@ -14,16 +14,17 @@
 header{
     background-color: black;
     color: white;
-    height: 270px;
     text-align: center;
     position: relative;
     font-family: var(--font01);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 header h1{
     font-size: 6.6vw;
-    padding-top: 45px;
     word-spacing: 10px;
+    font-variant:small-caps;
 }
 
 header aside{
@@ -31,11 +32,11 @@ header aside{
  
 }
 
-header a{
+a{
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 0.5px;
     transition: all ease-in-out 140ms;
 }
@@ -44,14 +45,15 @@ header a:hover{
     border: 2px solid white;
     border-radius: 15px;
     padding: 3px;
-}
+}           
 
 
 section{
     font-family: var(--font02);
-    font-size: 2.6em;
+    font-size: 2.4em;
     margin-top: 63px;
     height: 600px;
+    background-color: white;
 }
 
 article{
@@ -72,7 +74,7 @@ article{
 .joaninha article{
     color: white;
     background-color: rgba(0, 0, 0, 0.341);
-    width: 490px;
+    width: 450px;
     padding: 10px;
 }
 
@@ -94,7 +96,7 @@ article{
 .papel article{
     color: white;
     background-color: rgba(0, 0, 0, 0.341);
-    width: 480px;
+    width: 450px;
     padding: 10px;
 }
 
@@ -114,10 +116,6 @@ footer h3{
     font-weight: lighter;
 }
 
-footer a{
-    text-decoration: none;
-    color: white;
-}
 
 
 
