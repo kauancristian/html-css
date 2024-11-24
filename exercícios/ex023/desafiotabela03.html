@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Completa</title>
+
+    <style>
+
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            font-family: sans-serif;
+            width: 650px;
+            margin: auto;
+            margin-top: 7%
+        }
+
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+        }
+
+        thead > tr > th{
+            font-weight: bolder;
+            text-align: center;
+            background-color: rgb(88, 88, 88);
+            color: white;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <th scope="col">
+                Grupo
+            </th>
+            <th scope="col">
+                Nomes
+            </th>
+            <th scope="colgroup" colspan="3">
+                Filmes
+            </th>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Dragon Ball</td>
+            </tr>
+
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Vingadores</td>
+                <td>Naruto</td>
+            </tr>
+
+            <tr>
+                <td>Maria Luiza</td>
+                <td>As Cronicas de Narnia</td>
+                <td>Retaliação</td>
+                <td>Shingeki no Kiojyn</td>
+            </tr>
+
+
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Kauan Cristian</td>
+                <td>Rei Arthur</td>
+                <td>Viland Saga</td>
+                <td>Black Clover</td>
+            </tr>
+
+            <tr>
+                <td>Arthur Freitas</td>
+                <td>Vai que Cola</td>
+                <td>Chaves</td>
+                <td>Demon Slayer</td>
+            </tr>
+
+            <tr>
+                <td>Enzo Miguel</td>
+                <td>Mib Homens de Preto</td>
+                <td>Minions</td>
+                <td>My Hero Academy</td>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+    
+</body>
+</html>
