@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+
+    <style>
+
+        table{
+            font-family: sans-serif;
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        th{
+            background-color: gray;
+            color: white;
+        }
+
+        td, th{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+
+        col.cnome{
+            background-color: chartreuse;
+        }
+
+        col.csexo{
+            background-color: red;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo" span="2">
+            <col class="cprof">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>18</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Otavio Filho</td>
+            <td>Masculino</td>
+            <td>41</td>
+            <td>Progamador</td>
+        </tr>
+
+        <tr>
+            <td>Dhenis Maciel</td>
+            <td>Masculino</td>
+            <td>43</td>
+            <td>Professor</td>
+        </tr>
+
+        <tr>
+            <td>Lindiane Soares</td>
+            <td>Feminino</td>
+            <td>39</td>
+            <td>Cabeleleira</td>
+        </tr>
+
+        <tr>
+            <td>Ricardo de Souza</td>
+            <td>Masculino</td>
+            <td>54</td>
+            <td>Faxineiro</td>
+        </tr>
+
+        <tr>
+            <td>Rosana Pontes</td>
+            <td>Feminino</td>
+            <td>47</td>
+            <td>Secretaria</td>
+        </tr>
+    </table>
+</body>
+</html>
