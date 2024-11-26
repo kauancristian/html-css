@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela Responsiva</title>
+    <title>Site de Teste</title>
 
     <style>
+
+        body{
+            font-family: sans-serif;
+            background-color: lightgray;
+            color: rgb(0, 0, 0);
+        }
 
         table{
             border-collapse: collapse;
             font-family: sans-serif;
-            position: absolute;
-            transform: translate(300px);
+            background-color: white;
         }
 
         caption{
             font-size: 1.5em;
-            padding: 10px;
+            padding: 20px;
+            font-weight: 700;
         }
 
         th{
-            background-color: gray;
-            color: white;
+            background-color: white;
+            color: black;
             padding: 10px;
             border: 1px solid black;
         }
@@ -32,7 +38,7 @@
             padding: 10px;
         }
 
-        tbody > tr:nth-child(even){
+        tr:nth-child(even){
             background-color: lightgray;
         }
 
@@ -41,16 +47,15 @@
         }
 
 
-    </style>
 
+    </style>
 </head>
 <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vero ab, cupiditate unde veniam quas praesentium, atque voluptatibus nesciunt quaerat, sequi illum aspernatur. Repellendus explicabo eaque ratione maiores iure? Error!</p>
 
     <div id="container">
 
         <table>
-            <caption>Tabelas Responsivas</caption>
+            <caption>Vendas de Produto por mês</caption>
             <thead>
                 <tr>
                     <th>Produto</th>
@@ -178,5 +183,6 @@
         </table>
 
     </div>
+
 </body>
 </html>
