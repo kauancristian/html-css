@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form004</title>
+
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Teste de Formulários</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <div id="cadastro">
+            
+            <fieldset>
+                <legend>Dados Pessoais</legend><br>
+
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" required autocomplete="nickname" minlength="5" maxlength="20"><br><br>
+
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email"><br><br>
+
+                <!-- Estudar sobre RegEx -->
+
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="telefone" id="itel" required autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </fieldset>
+
+        </div><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar Dados">
+    </form>
+
+</body>
+</html>
