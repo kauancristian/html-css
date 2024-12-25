@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form003</title>
+
+    <style>
+
+        *{
+            font-family: sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <div id="cadastro">
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="30" autocomplete="username" placeholder="Nome Completo"><br><br>
+
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" step="0.1" value="0"><br><br>
+
+            <label for="imes">Período Letivo:</label>
+            <input type="month" name="mes" id="imes" required><br><br>
+
+            <label for="idia">Dia de Aplicação:</label>
+            <input type="date" name="dia" id="idia" required><br><br> 
+
+            <label for="ihora">Horário:</label>
+            <input type="time" name="hora" id="ihora" required>
+        </div><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar Dados">
+
+    </form>
+</body>
+</html>
