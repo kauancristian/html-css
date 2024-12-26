@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form005</title>
+
+    <style>
+
+        *{
+            font-family: sans-serif;
+        }
+
+        label.marque{
+            font-weight: bold;
+        }
+
+        fieldset{
+            width: 300px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Esportes Favoritos</legend><br>
+                <label class="marque" for="">Marque Seu Esporte Favorito:</label><br><br>
+
+                    <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label> <br><br>
+
+                    <input type="checkbox" name="esbase" id="iesbase"><label for="iesbase">BaseBall</label> <br><br>
+
+                    <input type="checkbox" name="esnata" id="iesnata"><label for="iesnata">Natação</label> <br><br>
+
+                    <input type="checkbox" name="esbasq" id="iesbasq"><label for="iesbasq">Basquete</label>
+                    
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <label class="marque" for="">Informe o seu sexo:</label><br><br>
+                <input type="radio" name="sx" id="isxmasc" value="Masculino"><label for="isxmasc">Masculino</label><br><br>
+
+                <input type="radio" name="sx" id="isxfem" value="Feminino"><label for="isxfem">Feminino</label>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar Dados">
+    </form>
+</body>
+</html>
