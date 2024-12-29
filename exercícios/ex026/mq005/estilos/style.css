@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* MobileFirst */
 *{
     margin: 0px;
     padding: 0px;
@@ -77,5 +79,6 @@ article > p{
     text-align: justify;
     text-indent: 20px;
 }
+
 
 

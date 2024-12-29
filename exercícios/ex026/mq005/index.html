@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <title>Media Query005</title>
 </head>
@@ -15,7 +16,7 @@
 
         <menu id="itens">
             <ul>
-                <li><a href="#sec2">Opção 1</a></li>
+                <li><a href="">Opção 1</a></li>
                 <li><a href="">Opção 2</a></li>
                 <li><a href="">Opção 3</a></li>
                 <li><a href="">Opção 4</a></li>
@@ -40,7 +41,7 @@
 
         <section id="sec2">
             <article>
-                <h2>Teste de Passagem</h2>
+                <h2>Teste de Passagem</h2><br>
 
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi reprehenderit est error nam dolore dolores laudantium voluptas ratione! Sunt deleniti fuga non fugiat ratione itaque voluptas dolor soluta doloremque quas! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente dolorem libero, atque in at ipsam velit odio cumque similique beatae deleniti vero ullam, inventore dolor deserunt distinctio! Eligendi, quam cupiditate!</p><br>
 
@@ -54,12 +55,12 @@
     </main>
 
     <script>
-        function clickMenu(){
-            if(itens.style.display == 'block'){
-                itens.style.display = 'none'
+        function clickMenu() {
+            if(itens.style.display == 'none'){
+                itens.style.display = 'block'
             }
             else{
-                itens.style.display = 'block'
+                itens.style.display = 'none'
             }
         }
     </script>

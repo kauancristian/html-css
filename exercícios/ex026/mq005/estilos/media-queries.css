@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Desktops/ Tablets/ Telas Grandes */
+
+@media screen and (min-width:768px){
+    i#burguer{
+        display: none;
+    }
+
+    menu{
+        display: block !important; /*Para dizer que é importante que o menu apareça nessa medida */
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    menu > ul > li > a{
+        border-top: none;
+    }
+
+    menu > ul > li > a:hover{
+        background-color: rgb(41, 39, 39);
+    }
+
+   
+}
